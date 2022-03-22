@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<style>
+  .container{
+    width: 600px;
+    display: block;
+    margin: auto;
+  }
+</style>
+
+<body>
+  <div>
+    <form class="container" action="" target="_self">
+      <fieldset>
+        <legend>
+          Buy an Xbox
+        </legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="sge">Age:</label><br>
+      <input type="number" id="age" name="age"><br>
+      <label for="html">Choose your gender:</label><br>
+      <input type="radio" id="mujer" name="fav_language" value="mujer">
+      <label for="mujer">Mujer</label><br>
+      <input type="radio" id="hombre" name="fav_language" value="hombre">
+      <label for="hombre">Hombre</label><br>
+      <label for="fname">Email:</label><br>
+      <input type="email" id="fname" name="fname"><br>
+      <label for="fname">Number:</label><br>
+      <input type="number" id="fname" name="fname"><br>
+      <br>
+      <label for="xbox">Choose your Xbox:</label> <br>
+      <select id="xbox" name="xbox">
+      <option value="xone">Xbox one</option>
+      <option value="xones">Xbox one s</option>
+      <option value="xseries">Xbox series </option>
+      <option value="xseriess">Xbox series s</option>
+      </select>
+      <br>
+      <br>
+      <label for="">Write us for any question</label><br>
+      <textarea name="message" rows="10" cols="50">
+      </textarea> <br>
+      <input type="checkbox" id="news" name="news" value="News">
+      <label for="news">Do you want to receive news and information about new products and offerts?</label><br>
+      <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
